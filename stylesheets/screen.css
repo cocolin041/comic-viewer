@@ -81,7 +81,7 @@ body header {
 /* line 10, ../sass/partials/main.scss */
 body header div {
   font-family: "Roboto-BlackItalic";
-  font-size: 36px;
+  font-size: 34px;
   color: #50FF44;
 }
 /* line 16, ../sass/partials/main.scss */
@@ -90,25 +90,22 @@ body aside {
 }
 /* line 18, ../sass/partials/main.scss */
 body aside > div {
-  width: 620px;
   margin: 0 auto;
 }
 /* line 24, ../sass/partials/main.scss */
 body main .comic {
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 /* line 28, ../sass/partials/main.scss */
 body main .comic .cover {
   height: 438px;
-  width: 292px;
   background: #FFFFFF;
   border: 4px solid #000000;
 }
 /* line 33, ../sass/partials/main.scss */
 body main .comic .cover img {
   height: 100%;
-  width: 100%;
 }
 /* line 38, ../sass/partials/main.scss */
 body main .comic .information {
@@ -118,10 +115,10 @@ body main .comic .information {
 body main .comic .information .title {
   padding: 8px 21px 8px 24px;
   font-family: "Roboto-Bold";
-  font-size: 36px;
+  font-size: 34px;
   color: #FFFFFF;
   background-color: #000000;
-  line-height: 36px;
+  line-height: 34px;
 }
 /* line 48, ../sass/partials/main.scss */
 body main .comic .information .details {
@@ -164,7 +161,6 @@ body main .comic .information .details .summary > div:nth-child(1) {
 /* line 83, ../sass/partials/main.scss */
 body main .comic .information .details .summary .summary-text {
   word-spacing: -3px;
-  width: 300px;
   font-family: "Roboto-Regular";
   font-size: 16px;
   color: #000000;
@@ -172,7 +168,6 @@ body main .comic .information .details .summary .summary-text {
 }
 /* line 95, ../sass/partials/main.scss */
 body main .all-chapters {
-  width: 635px;
   margin: 24px auto;
 }
 /* line 98, ../sass/partials/main.scss */
@@ -211,4 +206,9 @@ body main .all-chapters .chapter-list > div > span {
 body main .all-chapters .chapter-list > div:hover {
   background: #000000;
   color: #FFFFFF;
+}
+
+/* line 133, ../sass/partials/main.scss */
+.container {
+  width: 620px;
 }
